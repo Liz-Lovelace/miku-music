@@ -1,0 +1,6 @@
+music/
+yarn.lock
+node_modules/
+database.db
+.env
+

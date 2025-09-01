@@ -1,0 +1,25 @@
+TODO:
+- [ ] login page
+  - [x] delete the db into new shape
+  - [x] config jwt stuff
+  - [x] add a page with a login and register 
+  - [x] revive login endpoints
+  - [x] add message displays
+  - [x] make auth functionality function
+  - [x] case insensitive user find
+  - [x] make other endpoints user-specific
+    - [x] isDuplicate needs to be done correctly
+
+GOALS:
+- [x] save music to s3
+- [ ] auth
+- [ ] correct playlist/list-reload on back/forward (use mounting i guess?)
+- [ ] loop playlist 
+- [x] custom player element
+- [x] error handling
+- [ ] dockerize (two containers? build svelte to static?)
+- [x] current track box
+  - [x] like/dislike, vertically, instead of left-right buttons
+
+LATER:
+- if already in s3 and new user, just write db record
